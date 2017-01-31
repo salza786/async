@@ -18,7 +18,7 @@ namespace AsyncWorthAwait
 
         internal static Task ExecuteStart()
         {
-            return Task.Delay(4000);
+            return Task.Delay(3000);
         }
 
     }
