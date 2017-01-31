@@ -15,8 +15,8 @@ namespace AsyncWorthAwait
         private async void action1_Click(object sender, RoutedEventArgs e)
         {
             label1.Content = "Action 1 started...";
-            var ActionResult = await Action1.Execute();
-            label1.Content = ActionResult;
+            var actionResult = await Action1.Execute();
+            label1.Content = actionResult;
         }
     }
 }
