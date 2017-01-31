@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using System.Windows.Input;
 
 namespace AsyncWorthAwait
 {
@@ -27,6 +28,8 @@ namespace AsyncWorthAwait
             label2A.Content = await Action2.ExecuteA();
             label2B.Content = await  Action2.ExecuteB();
             label2C.Content = DateTime.Now.ToString("hh:mm:ss:ff");
+
+
 
         }
     }
