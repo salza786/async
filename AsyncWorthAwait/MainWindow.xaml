@@ -9,14 +9,14 @@
     <Grid>
         <Button x:Name="action1" Content="Action1" HorizontalAlignment="Left" Margin="42,35,0,0" VerticalAlignment="Top" Width="75" Click="action1_Click"/>
         <Label x:Name="label1" Content="Status" HorizontalAlignment="Left" Height="28" Margin="138,31,0,0" VerticalAlignment="Top" Width="275"/>
-        <Label x:Name="label1A" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="204,10,0,0" VerticalAlignment="Top" Width="78"/>
-        <Label x:Name="label1B" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="282,10,0,0" VerticalAlignment="Top" Width="78"/>
-        <Button x:Name="action2" Content="Action2" Visibility="Hidden" HorizontalAlignment="Left" Margin="42,94,0,0" VerticalAlignment="Top" Width="76"/>
-        <Label x:Name="label2" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="138,90,0,0" VerticalAlignment="Top" Width="78"/>
-        <Label x:Name="label2A" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="210,90,0,0" VerticalAlignment="Top" Width="78"/>
-        <Label x:Name="label2B" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="288,89,0,0" VerticalAlignment="Top" Width="78"/>
-        <Label x:Name="label2C" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="366,88,0,0" VerticalAlignment="Top" Width="78"/>
-        <Button x:Name="action3" Content="Action3" Visibility="Hidden" HorizontalAlignment="Left" Margin="42,144,0,0" VerticalAlignment="Top" Width="76"/>
-        <Label x:Name="label3" Content="Status" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="138,141,0,0" VerticalAlignment="Top" Width="194"/>
+        <Label x:Name="label1A" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="204,31,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label1B" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="287,31,0,0" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="action2" Content="Action2"  HorizontalAlignment="Left" Margin="42,94,0,0" VerticalAlignment="Top" Width="76" Click="action2_Click_1"/>
+        <Label x:Name="label2" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="138,90,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label2A" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="210,90,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label2B" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="288,89,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label2C" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="366,88,0,0" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="action3" Content="Action3"  HorizontalAlignment="Left" Margin="42,144,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label x:Name="label3" Content="Status"  HorizontalAlignment="Left" Height="28" Margin="138,141,0,0" VerticalAlignment="Top" Width="194"/>
     </Grid>
 </Window>
